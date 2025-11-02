@@ -21,16 +21,7 @@ int main()
             printf("Result = %d\n", a * b);
             break;
         case '/':
-            if(b != 0)
                 printf("Result = %d\n", a / b);
-            else
-                printf("Error: Division by zero!\n");
-            break;
-        case '%':
-            if(b != 0)
-                printf("Result = %d\n", a % b);
-            else
-                printf("Error: Division by zero!\n");
             break;
         default:
             printf("Invalid operator!\n");
