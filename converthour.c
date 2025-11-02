@@ -2,7 +2,7 @@
 
 int main()
 {
-    int seconds, hours, minutes, remaining_seconds;
+    int seconds, hours, minutes, seconds;
     printf("Enter time in seconds: ");
     scanf("%d", &seconds);
 
